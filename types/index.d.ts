@@ -386,6 +386,7 @@ export interface TimelineOptions {
   tooltip?: TimelineTooltipOption;
   tooltipOnItemUpdateTime?: boolean | { template(item: any): any };
   verticalScroll?: boolean;
+  vertical?: boolean;
   width?: HeightWidthType;
   zoomable?: boolean;
   zoomKey?: TimelineOptionsZoomKey;
